@@ -1,0 +1,26 @@
+{
+  "name": "no-external-lib-test",
+  "version": "1.0.0",
+  "description": "A repo that uses the new NodeJS native test features without the need to use any external libs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch api.js",
+    "test:dev": "node --test --watch api.test.js",
+    "test": "node --test api.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinny-Bass/no-external-lib-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vinny-Bass/no-external-lib-test/issues"
+  },
+  "homepage": "https://github.com/Vinny-Bass/no-external-lib-test#readme",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0"
+  }
+}
